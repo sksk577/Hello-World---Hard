@@ -1,10 +1,8 @@
 import random
 
 def confirm():
-    print("")
-    print("원하는 기능에 해당하는 숫자를 입력하세요.")
-    print("1 : 복권 시작  2 : 소지금 확인  3 : 당첨 금액 목록 보기")
-    print("4 : 종료")
+    print("1 : 복권 시작  2 : 소지금 확인  3 : 당첨 금액 목록 보기 4 : 종료\n")
+    print("원하는 기능에 해당하는 숫자를 입력하세요. : ")
 
 def Showlist():
     print("당첨 금액 목록")
