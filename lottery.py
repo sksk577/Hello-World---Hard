@@ -1,8 +1,10 @@
 import random
 
 def confirm():
-    print("1 : 복권 시작  2 : 소지금 확인  3 : 당첨 금액 목록 보기 4 : 종료\n")
-    print("원하는 기능에 해당하는 숫자를 입력하세요. : ")
+    print("")
+    print("원하는 기능에 해당하는 숫자를 입력하세요.")
+    print("1 : 복권 시작  2 : 소지금 확인  3 : 당첨 금액 목록 보기")
+    print("4 : 종료")
 
 def Showlist():
     print("당첨 금액 목록")
@@ -16,9 +18,10 @@ def Showlist():
     print("12 : 108       22 : 144")
     print("13 : 72        23 : 1800")
     print("14 : 54        24 : 3600")
-    print("15 : 180");
+    print("15 : 180")
 
 def play():						#복권 처리 함수
+
     i = 0
     j = 0
     num = 0
@@ -62,15 +65,14 @@ def play():						#복권 처리 함수
         
     i = 0
     j = 0
-	
     print("공개를 원하는 곳의 번호를 입력하세요.");
     print("");
     print("위치 번호");
     print("1 2 3");
     print("4 5 6");
     print("7 8 9");
-	
-    # 가려진 배열 중 한칸을 무작위로 공개
+
+        # 가려진 배열 중 한칸을 무작위로 공개
     while turn<3:
         sel_num = int(input())
 
@@ -284,18 +286,41 @@ def play():						#복권 처리 함수
         print("")
     return money
 
+def yesno():
+    a = input("일일복권에 도전하시겠습니까? 예 : Y, 아니오 : N입력")
+    return a
+    
+
 money = 100
 value2 = 1
-print("일일복권 프로그램 ver 1.0")
+playnum = 0
+cost = 100
+print("일일복권 프로그램 ver 1.1")
 print("")
 print("")
 confirm()
 while value2 == 1:
               select = int(input())
               if select == 1:
-                  plus_money = play()
-                  money += plus_money
-                  print("현재 고객님의 소지금은", money, "원 입니다.")
+                  print("일일복권은 3번 도전할 수 있습니다.")
+                  print("현재 도전 횟수 :", playnum, "번")
+                  while playnum < 3:
+                      answer = yesno()
+                      if (answer == 'Y') or (answer == 'y'):
+                          if money < cost:
+                              print("소지금이 부족합니다.")
+                              break
+                          print("소지금이", cost, "만큼 지불되었습니다.")
+                          plus_money = play()
+                          money += plus_money
+                          cost = cost + 100
+                          print("현재 고객님의 소지금은", money, "원 입니다.")
+                      elif(answer == 'N') or (answer == 'n'):
+                          break
+                      else:
+                          print("잘못 입력하셨습니다. 다시 입력해주세요.")
+                          yseno()
+
                   confirm()
               elif select == 2:
                   print("현재 고객님의 소지금은", money, "원 입니다.")
