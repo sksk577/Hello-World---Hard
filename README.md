@@ -1,14 +1,16 @@
-# Hello World-Hard
+# Hello World-Hard - 24-team
 
 ## commited program list
 
 1. lottery.c
+2. lottery.py
 
 
 
 ## manual of commited program
 
 *lottery.c*
+*Lottery.py*
 ```
 This program is a lottery program in 'Final Fantasy XIV'.
 This program is just prototype, and will be modifyed in Python.
