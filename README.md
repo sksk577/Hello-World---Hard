@@ -1,22 +1,21 @@
 # Hello World-Hard
-```
 project by 24-team
-```
+
 
 ## Project contributer
-```
-Sang Won Kim
-```
+- Sang Won Kim
+- 
+- 
 
 ## Goals of this project
 ```
-'Hello World' is a sentense that we 
+'Hello World' is a sentense that we meet when we start programming.
 ```
 ## Commited program list
 
 1. lottery.c
 2. lottery.py
-3. matgo.py(and many class files)
+3. matgo.zip(matgo.py and many flies of 'matgo.py's class' are here.)
 
 
 ## Manual of commited program
