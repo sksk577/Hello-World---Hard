@@ -27,14 +27,16 @@ http://www.apache.org/licenses/LICENSE-2.0
 ## Commited program list
 
 1. lottery.c
-2. lottery.py
+2. daylotto.py(Name is modified : lottery.py -> daylotto.py)
 3. matgo.zip(matgo.py and many flies of 'matgo.py's class' are here.)
+4. lottery_2.zip(New program)
 
 
 ## Manual of commited program
 
 *lottery.c - uncompleted*
 *Lottery.py*
+*NOTICE : This program's name is modified -> daylotto.py*
 ```
 This program is a daliy lottery program in 'Final Fantasy XIV'.
 We make this program in Python.
@@ -51,4 +53,8 @@ We make this program in Python.
 This program is a gamble program which called 'matgo' in Korea.
 ```
 
+*Lottery_2.py*
+```
+
+```
 ##
