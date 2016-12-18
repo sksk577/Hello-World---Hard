@@ -8,13 +8,22 @@ project by 24-team
 - 
 
 ## Goal and Introduce of this project
-```
 'Hello World!' is a sentense that we meet necessarily when we start study about programming.
 Our goal is to make several programs, which use basic principle, like sentense 'Hello World!'.
 ex) simple games
 
-Our project is using 'Python', and license is 
+Our project is using 'Python', and license is 'Apache License 2.0'.
+
+### Apache License 2.0
+This license means anybody can make a program derived from this software, and transfer copyright of this software.
+Also, anybody can use software privately and commercially which followed 'Apache License 2.0'.
+
+When you used software which followed 'Apache License 2.0' for development, or privately and commercially use, etc.,
+you must specify in program clearly that 'This software follow 'Apache License 2.0', and developed by Apache Software Foundation.'.
 ```
+
+```
+
 ## Commited program list
 
 1. lottery.c
