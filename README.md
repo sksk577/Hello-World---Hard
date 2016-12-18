@@ -7,9 +7,13 @@ project by 24-team
 - 
 - 
 
-## Goals of this project
+## Goal and Introduce of this project
 ```
-'Hello World' is a sentense that we meet when we start programming.
+'Hello World!' is a sentense that we meet necessarily when we start study about programming.
+Our goal is to make several programs, which use basic principle, like sentense 'Hello World!'.
+ex) simple games
+
+Our project is using 'Python', and license is 
 ```
 ## Commited program list
 
@@ -23,7 +27,7 @@ project by 24-team
 *lottery.c - uncompleted*
 *Lottery.py*
 ```
-This program is a lottery program in 'Final Fantasy XIV - Daliy lottery'.
+This program is a daliy lottery program in 'Final Fantasy XIV'.
 We make this program in Python.
 
 1. Program will make 3*3 matrix, and will put natual number randomly(1~9). these numbers are not revealed. 
@@ -37,3 +41,5 @@ We make this program in Python.
 ```
 This program is a gamble program which called 'matgo' in Korea.
 ```
+
+##
