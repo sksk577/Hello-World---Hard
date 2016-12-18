@@ -20,9 +20,9 @@ Also, anybody can use software privately and commercially which followed 'Apache
 
 When you used software which followed 'Apache License 2.0' for development, or privately and commercially use, etc.,
 you must specify in program clearly that 'This software follow 'Apache License 2.0', and developed by Apache Software Foundation.'.
-```
 
-```
+If you want to know about this license detailedly, please click this link.
+http://www.apache.org/licenses/LICENSE-2.0
 
 ## Commited program list
 
