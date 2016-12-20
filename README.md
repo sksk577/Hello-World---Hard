@@ -58,6 +58,9 @@ This program is a gamble program which called 'matgo' in Korea.
 
 ```
 ## Screenshot
+### Lottery.py
 ![Screenshot1](./Screenshot1.PNG)
+### Matgo.py
 ![Screenshot2](./Screenshot2.PNG)
+### Lottery_2.py
 ![Screenshot3](./Screenshot3.PNG)
