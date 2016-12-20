@@ -8,13 +8,16 @@ project by 24-team
 - 
 
 ## Goal and Introduce of this project
+
 'Hello World!' is a sentense that we meet necessarily when we start study about programming.
 Our goal is to make several programs, which use basic principle, like sentense 'Hello World!'.
 ex) simple games
 
 Our project is using 'Python', and license is 'Apache License 2.0'.
 
+
 ### Apache License 2.0
+
 This license means anybody can make a program derived from this software, and transfer copyright of this software.
 Also, anybody can use software privately and commercially which followed 'Apache License 2.0'.
 
@@ -23,6 +26,7 @@ you must specify in program clearly that 'This software follow 'Apache License 2
 
 If you want to know about this license detailedly, please click this link.
 http://www.apache.org/licenses/LICENSE-2.0
+
 
 ## Commited program list
 
@@ -51,13 +55,18 @@ We make this program in Python.
 *Matgo.py*
 ```
 This program is a gamble program which called 'matgo' in Korea.
+To play this game, you must follow some rules: 
 ```
 
 *Lottery_2.py*
 ```
+This program is gambler simulation program containing daylotto.py, Matgo.py, etc.
+In this program, you will be a gambler who have a goal - Earn lot of money!
 
+NOTICE for Korean user : This program's korean name is '주갤러 시뮬레이션'
 ```
 ## Screenshot
+
 ### Lottery.py
 ![Screenshot1](./Screenshot1.PNG)
 ### Matgo.py
