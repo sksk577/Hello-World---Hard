@@ -57,11 +57,37 @@ We make this program in Python.
 This program is a gamble program which called 'matgo' in Korea.
 To play this game, you must follow some rules: 
 ```
+![matgo1](/matgocards.jpg)
+```
+From upper left to bottom right, this cards have numbers : 1~12.
+* 11th card is called 'Ttong', and 12th card is called 'Be'.
+```
+![matgo2](/matgoicon.png)
+```
+Cards having this icon, they are called 'Gwang'.
+```
+```
+Cards having red or blue band, they are called 'Tthi'.
+Cards having birds, animals, insects, they are called 'youlkkot'. 
+The rest of cards, they are called 'Phe'.
 
+These cards are setting specific positon:
+'Gwang' : left
+'Tthi' : bottom of center
+'youlkkot' : upper 'Tthi'(not above 'Tthi')
+'Phe' : leftest position
+
+Set four cards on the floor -> Give five cards to another player -> Bring five cards ->
+Set four cards on the floor -> Give five cards to another player -> Bring five cards ->
+Pile up the rest of cards at the center : between you and another player. 
+
+
+```
 *Lottery_2.py*
 ```
 This program is gambler simulation program containing daylotto.py, Matgo.py, etc.
-In this program, you will be a gambler who have a goal - Earn lot of money!
+In this program, you will be a gambler who have a goal - Of course earn lot of money.
+Try to earn lot of money as you can!
 
 NOTICE for Korean user : This program's korean name is '주갤러 시뮬레이션'
 ```
