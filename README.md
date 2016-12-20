@@ -3,9 +3,9 @@ project by 24-team
 
 
 ## Project contributer
+- Min Hyuk Choi
+- Yung Soo Jung
 - Sang Won Kim
-- 
-- 
 
 ## Goal and Introduce of this project
 
