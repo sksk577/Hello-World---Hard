@@ -58,4 +58,6 @@ This program is a gamble program which called 'matgo' in Korea.
 
 ```
 ## Screenshot
-
+![Screenshot1](.\스크린샷1.PNG)
+![Screenshot2](.\스크린샷2.PNG)
+![Screenshot3](.\스크린샷3.PNG)
