@@ -34,7 +34,7 @@ http://www.apache.org/licenses/LICENSE-2.0
 2. daylotto.py(Name is modified : lottery.py -> daylotto.py)
 3. matgo.zip(matgo.py and many flies of 'matgo.py's class' are here.)
 4. lottery_2.zip(New program)
-
+ 
 
 ## Manual of commited program
 
@@ -60,7 +60,7 @@ To play this game, you must follow some rules:
 ![matgo1](/matgocards.jpg)
 ```
 From upper left to bottom right, this cards have numbers : 1~12.
-* 11th card is called 'Ttong', and 12th card is called 'Be'.
+* Kinds of 11st card is called 'Ttong', and Kinds of 12nd card is called 'Be'.
 ```
 ![matgo2](/matgoicon.png)
 ```
@@ -68,21 +68,46 @@ Cards having this icon, they are called 'Gwang'.
 ```
 ```
 Cards having red or blue band, they are called 'Tthi'.
-Cards having birds, animals, insects, they are called 'youlkkot'. 
+Cards having birds, animals, insects, they are called 'Youlkkot'. 
 The rest of cards, they are called 'Phe'.
 
 These cards are setting specific positon:
 'Gwang' : left
 'Tthi' : bottom of center
-'youlkkot' : upper 'Tthi'(not above 'Tthi')
+'Youlkkot' : upper 'Tthi'(not above 'Tthi')
 'Phe' : leftest position
 
+Set four cards on the floor -> Give five cards to another player -> Bring five cards ->'
 Set four cards on the floor -> Give five cards to another player -> Bring five cards ->
-Set four cards on the floor -> Give five cards to another player -> Bring five cards ->
-Pile up the rest of cards at the center : between you and another player. 
+Pile up the rest of cards at the center -  between you to another player. 
 
+In your turn, you can set one card in your hand on the floor.
 
+If three 'Gwang' cards are gathered, you get 3 points. If 'Be' card is in that cards, you get 2 points.
+If any four 'Gwang' cards are gathered, you get 4 points.
+If any five 'Gwang' cards are gathered, you get 15 points.
+
+If three 'Tthi' cards are gathered, you get 3 points. These cards must have same color of band.
+If three 'Tthi' that have red band without words, you get 3 points.
+If any five 'Tthi' cards are gathered, you get 1 points. six cards = 2 points, seven cards = 3 points....
+
+If any ten 'Phe' cards are gathered, you get 1 points. eleven cards = 2 points, twelve cards = 3 points....
+In these cards,
+* 'Ttong' card(11st card) that has red color, this card is 2 points.
+* 9th card is 2 points. This card also can use 'Youlkkot' card.
+* 12nd card that has red color, this card is 2 points.
+* If another player's ten 'Phe' cards are gathered, while a number of yours are lower than seven,
+Points that another player will get are doubled.
+
+If any five 'Youlkkot' cards are gathered, you get 1 point. six cards = 2 points....
+* If three 'Youlkkot' cards that have a bird picture are gathered, you get 5 points.
+* If any seven 'Youlkkot' cards are gathered, Points that you will get are doubled.
+
+Player that get 7 point first is winner of that game.
+
+If you want to know about matgo, please ask about matgo to your korean friends.
 ```
+
 *Lottery_2.py*
 ```
 This program is gambler simulation program containing daylotto.py, Matgo.py, etc.
